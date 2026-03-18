@@ -1,0 +1,21 @@
+// lib/metadata.js
+export function generateMetadata({
+  title,
+  description,
+  image = "/og-image.jpg",
+}) {
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      images: [{ url: image }],
+    },
+    twitter: {
+      title,
+      description,
+      images: [image],
+    },
+  };
+}
