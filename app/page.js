@@ -13,6 +13,7 @@ export const metadata = generateMetadata({
     "Transform your brand with expert digital marketing, SEO, and business growth solutions.",
 });
 
+// Main section of code
 export default function Home() {
   return (
     <>
